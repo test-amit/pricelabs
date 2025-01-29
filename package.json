@@ -1,0 +1,22 @@
+{
+  "name": "pricelabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test-amit/pricelabs.git"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/test-amit/pricelabs/issues"
+  },
+  "homepage": "https://github.com/test-amit/pricelabs#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0"
+  }
+}
