@@ -18,7 +18,7 @@ describe('Multicalendar DSO Feature Tests', () => {
   });
 
   // ✅ Fixed: Key Functional Test Cases
-  it.only('should select a date range', () => {
+  it('should select a date range', () => {
     cy.origin(multiCalendar.appUrl, { args: { startDate: 'Jan 28, 2025', endDate: 'Apr 28, 2025' } }, 
       ({ startDate, endDate }) => {
         cy.get('[qa-id="date-picker-calendar-start"]',{ timeout: 10000 }).click();
